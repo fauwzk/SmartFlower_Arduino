@@ -101,7 +101,7 @@ void loop() {
     do {
       u8g2.setFont(u8g2_font_ncenB10_tr);
       u8g2.setCursor(0, 24);
-      #u8g2.drawStr(0,24,"Hello World!");
+      //u8g2.drawStr(0,24,"Hello World!");
       u8g2.print(temp);
       u8g2.setCursor(0, 48);
       u8g2.print(hum);
