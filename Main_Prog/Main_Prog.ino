@@ -87,7 +87,7 @@ void setup() {
 
 void loop() {
   buttonState = digitalRead(buttonPin);
-  Serial.println(buttonState);
+  //Serial.println(buttonState);
   timeClient.update();
   server.handleClient();
   gettemperature();
